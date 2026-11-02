@@ -10,7 +10,7 @@ This research provides the foundation for **Action-Consistent Q-Learning for Zer
 
 The Tennessee Tech study established a common framework for model-based GARE and model-free quadratic Q-learning methods, persistent command-offset estimation, affine compensation, and matched numerical validation.
 
-The continued work focuses on:
+The continued work at Vanderbilt University focuses on:
 
 - **Learning consistency:** How action mismatch affects Bellman regression, Q-function estimation, and policy recovery.
 - **Action representation:** Comparing commanded-action, applied-action, and calibration-based learning.
