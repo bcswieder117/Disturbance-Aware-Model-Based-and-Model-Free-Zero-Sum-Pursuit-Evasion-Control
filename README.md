@@ -4,6 +4,29 @@
 
 > **Project Status:** Completed Master of Science project report in Electrical and Computer Engineering at Tennessee Technological University, August 2026. This repository contains the reproducible MATLAB implementations, numerical studies, literature documentation, and supporting materials developed for the report. The report evaluates four disturbance-aware zero-sum control methods in a common MATLAB framework; nonlinear vehicle, QLabs, and physical QCar validation remain future work.
 
+## Continued Research
+
+This research provides the foundation for **Action-Consistent Q-Learning for Zero-Sum Control**, a continuation investigating how differences between commanded, applied, and recorded actions affect learning and closed-loop performance.
+
+The Tennessee Tech study established a common framework for model-based GARE and model-free quadratic Q-learning methods, persistent command-offset estimation, affine compensation, and matched numerical validation.
+
+The continued work focuses on:
+
+- **Learning consistency:** How action mismatch affects Bellman regression, Q-function estimation, and policy recovery.
+- **Action representation:** Comparing commanded-action, applied-action, and calibration-based learning.
+- **Function approximation:** Examining when constant, linear, and quadratic features are needed to represent actuator mismatch.
+- **Identifiability:** Determining which measurements and excitation conditions support offset estimation.
+- **Uncertainty:** Evaluating calibration error, measurement noise, finite datasets, and changing actuator bias.
+- **Generalization:** Testing across multiple plant instances, experimental conditions, and random seeds.
+
+**Continuation project:** Action-Consistent Q-Learning for Zero-Sum Control
+
+**Current stage:** Research design and implementation planning.
+
+Results presented in this repository belong to the original study. Additional methods, experiments, and findings will be documented through the continuation project, with attribution to reused implementations and reference results.
+
+See Link: https://github.com/bcswieder117/Action-Consistent-Q-Learning-for-Zero-Sum-Control
+
 ## Overview
 
 This repository documents a theoretical and computational research project involving zero-sum dynamic games, model-based control, model-free control, persistent command disturbances, and pursuit-evasion systems.
